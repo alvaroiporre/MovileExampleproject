@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "dev:ios": "npm run ios -- --simulator='iPhone 14 Pro (84E5A2F9-F9B2-4EC4-B9FD-B18BB8A7216F)'"
   },
   "dependencies": {
     "react": "18.2.0",
